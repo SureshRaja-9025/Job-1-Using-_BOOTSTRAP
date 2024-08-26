@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* background: url(./BG-IMAGES/standard-        quality-control-collage-concept.jpg); 
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000; */
+    background-color: #00712D !important;
+    color: #f5f5f5 !important;
+}
+
+#navbar{
+    position:sticky;
+    background-color: #00712D;
+    top: 0px;
+    z-index: 100;
+    border-bottom: 3px solid aqua;
+}
+
+#top-nav .navbar-brand{
+    font-size: 25px;
+    font-weight: 400;
+}
+#top-nav .navbar-brand img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f5f5f5;
+}
+#top-nav .navbar-brand i{
+    font-size: 25px ;
+
+}
+#top-nav .collapse li a{
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    color: #f5f5f5;
+}
+#top-nav .collapse li a:hover{
+    border-bottom: 1px solid aqua;
+
+}
+.inputsearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 85px;
+    right: 10px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+ #inputbox{
+  border: 1px solid #000;
+  border-radius: 4px;
+  outline: none;
+} 
+
+.inputsearch span{
+    background-color: red;
+    padding: 1px 7px;
+
+}
+
+
+
+
+/* ****section_1****  */
+
+
+.img-sec img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.text-sec h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.text-sec h4{
+    font-size: 21px;
+}
+.text-sec p{
+    font-size: 18px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+} 
+.links span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.links span i{
+    font-size: 23px;
+}
+
+
+
+/* section-2 */
+
+
+#sec-2{
+border-top: 2px solid aqua;
+/* background-color: gray !important; */
+
+}
+.text-sec-2 h3{
+    font-size: 30px;
+}
+.text-sec-2 p{
+    font-size: 20px;
+    line-height: 32px;
+}
+#sec-2 .img-sec-2 img{
+    border: 2px solid aqua;
+    border-radius: 20px;
+}
+
+.img-sec-2 img{
+    width: 300px;
+    height: 350px;
+}
+
+
+
+/* section-3 */
+#sec-3{
+    border-top: 2px solid aqua;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    /* background-color: aqua !important; */
+    color: #000;
+
+}
+#logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 60px;
+    column-gap: 100px;
+
+}
+#logos h3{
+    text-align: center;
+    font-size: 30px !important;
+}
+#boxes{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #000;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+#boxes h5{
+    margin-top: 10px;
+}
+#boxes .box-1 .img{
+    width: 100px;
+    height: 100px; 
+    background: url(./LOGO/html_img.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes .box-2 .img{
+    width: 100px;
+    height: 100px; 
+    background: url(./LOGO/logo-css-3-2048.png
+    ); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes .box-3 .img{
+    width: 100px;
+    height: 100px; 
+    background: url(./LOGO/javascript.jpg
+    ); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes .box-4 .img{
+    width: 100px;
+    height: 100px; 
+    background: url(./LOGO/jquery.jpg
+    ); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes .box-5 .img{
+    width: 100px;
+    height: 100px; 
+    background: url(./LOGO/bootstrap.png
+    ); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes .box-6 .img{
+    width: 100px;
+    height: 100px; 
+    background: url(./LOGO/react-removebg-preview.png
+    ); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#boxes .box-7 .img{
+    width: 100px;
+    height: 100px; 
+    background: url(./LOGO/angular.png
+    ); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes .box-8 .img{
+    width: 100px;
+    height: 100px; 
+    background: url(./LOGO/node.js
+    ); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes .box-9 .img{
+    width: 100px;
+    height: 100px; 
+    background: url(./LOGO/express.js
+    ); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes .box-10 .img{
+    width: 100px;
+    height: 100px; 
+    background: url(./LOGO/mongodb.jpg
+    ); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* section-4 */
+.sec-4{
+    border-top: 2px solid aqua;
+    text-align: center;
+    margin-bottom: 50px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    /* background: url(./Contact.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+#end h3{
+    font-size: 30px;
+}
+
+.sec-4 #ending h2{
+    font-size: 30px !important;
+}
+#form-1{
+    border: 3px solid aqua;
+    border-radius: 10px;
+}
+#form-1 #label-1{
+    margin-top: 20px;
+    font-size: 18px;
+}
+#form-1 #label-2{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#form-1 #email{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-top: 15px;
+    display: block;
+}
+#form-1 textarea{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    display: block;
+}
+#form-1 button{
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+#form-2{
+    margin-top: 100px !important;
+}
+#form-2 img{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+
+}
+
+
+/* footer.... */
+
+#footer{
+    display: block;
+    border-top: 2px solid aqua;
+}
+
+#top-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#top-end h2{
+    font-weight: 600;
+}
+#top-end span{
+    font-weight: 600;
+}
+#footer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#footer h3{
+    width: 400px;
+}
+#footer-f1 a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+#footer-f1::first-line{
+    font-size: 18px;
+    color: #f5f5f5;
+    font-weight: bold;
+}
+#footer-f1:nth-child(2){
+    display: block;
+}
+#footer-f1:nth-child(2) span{
+    margin: 50px 10px;
+}
+#footer-f1:nth-child(2) span i{
+    font-size: 20px;
+   background-color: red;
+   padding: 7px;    
+   border-radius: 50%;
+    margin-top: 20px;
+
+}
+
+#footer-f2 a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+#footer-f2::first-line{
+    font-size: 18px;
+    color: #f5f5f5;
+    font-weight: bold;
+}
+#footer-f3 a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+#footer-f3::first-line{
+    font-size: 18px;
+    color: #f5f5f5;
+    font-weight: bold;
+}
+#footer-f4 a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+#footer-f4::first-line{
+    font-size: 18px;
+    color: #f5f5f5;
+    font-weight: bold;
+}
+#footer-f4 #letter{
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* disclaimer */
+
+#disclaimer{
+    border-top: 2px solid aqua;
+}
